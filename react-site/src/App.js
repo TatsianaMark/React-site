@@ -1,15 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { Button} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from "./Components/Header";
 
 function App() {
   return (
       <>
-      <h1>hi</h1>
-      <Button variant="primary">Button</Button>
-    </>
+      <Header/>
+      </>
   );
 }
 
