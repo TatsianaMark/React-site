@@ -1,7 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import cameraImg from "../assets/img/cameraImg.jpg";
-import Carousel from "../Components/CarouselBox";
+
 
 export default function About() {
     return (

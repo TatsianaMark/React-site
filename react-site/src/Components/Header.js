@@ -7,6 +7,7 @@ import About from "../Pages/About";
 import Services from "../Pages/Services";
 import Portfolio from "../Pages/Portfolio";
 import Contacts from "../Pages/Contacts";
+import logo from '../assets/img/logo.png'
 
 
 
@@ -15,10 +16,17 @@ export default function Header() {
     return (
         <>
             <Router>
-                <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
+                <Navbar collapseOnSelect expand="md" bg="dark" variant="dark" sticky="top">
                     <Container>
-                        <Navbar.Brand href="/" >
-                            <div className='logo'>Photographer Katrin</div>
+                        <Navbar.Brand href="/" className="d-flex">
+                            <img
+                                src={logo}
+                                height="30"
+                                width="30"
+                                className="d-inline-block align-top mr-2"
+                                alt="Logo"
+                            />
+                            <div className='logo_title'>Photographer Katrin</div>
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">

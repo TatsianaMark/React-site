@@ -3,6 +3,9 @@ import Carousel from 'react-bootstrap/Carousel';
 import cameraImg from '../assets/img/cameraImg.jpg';
 import cameraTwo from '../assets/img/camera-581126_1920.jpg';
 import cameraThree from '../assets/img/camera-711040_1920.jpg';
+import courOne from '../assets/img/courOne.jpg'
+import courTwo from '../assets/img/courTwo.jpg'
+import courThree from '../assets/img/courThree.jpg'
 
 
 export default function CarouselBox() {
@@ -18,7 +21,7 @@ export default function CarouselBox() {
                     className="d-block w-100"
                     width={810}
                     height={500}
-                    src={cameraImg}
+                    src={courOne}
                     alt="photo"
                 />
                 <Carousel.Caption>
@@ -32,7 +35,7 @@ export default function CarouselBox() {
                     className="d-block w-100"
                     width={810}
                     height={500}
-                    src={cameraTwo}
+                    src={courTwo}
                     alt="photo"
                 />
                 <Carousel.Caption>
@@ -46,7 +49,7 @@ export default function CarouselBox() {
                     className="d-block w-100"
                     width={810}
                     height={500}
-                    src={cameraThree}
+                    src={courThree}
                     alt="photo"
                 />
                 <Carousel.Caption>
