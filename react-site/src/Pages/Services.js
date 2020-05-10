@@ -4,7 +4,7 @@ import cameraImg from '../assets/img/cameraImg.jpg';
 
 export default function Services() {
     return (
-        <Container>
+        <Container >
             <Tab.Container id="ledt-tabs-example" defaultActiveKey="first">
                 <Row>
                     <Col sm={3}>

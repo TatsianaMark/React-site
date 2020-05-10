@@ -8,7 +8,7 @@ export default function About() {
         <Container>
             <h2>Обо мне</h2>
             <img
-                className="d-block w-100"
+                className="d-flex-c w-100"
                 width={300}
                 height={300}
                 src={cameraImg}

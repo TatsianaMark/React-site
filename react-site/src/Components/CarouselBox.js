@@ -17,44 +17,49 @@ export default function CarouselBox() {
     return (
         <Carousel activeIndex={index} onSelect={handleSelect}>
             <Carousel.Item>
+                {/*<img*/}
+                    {/*className="d-block img-fluid mw-100 h-auto"*/}
+                    {/*src={courOne}*/}
+                    {/*alt="photo"*/}
+                {/*/>*/}
                 <img
-                    className="d-block w-100"
-                    width={810}
-                    height={500}
+                    className="img-fluid"
+                    // width={810}
+                    // height={500}
                     src={courOne}
                     alt="photo"
                 />
                 <Carousel.Caption>
                     <h3> Best photographer in the world!</h3>
-                    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut doloremque eveniet, excepturi fuga fugit iusto, nam, necessitatibus non optio quasi sequi veniam vitae voluptate! Esse libero modi quae quas quos?</span><span>Architecto cum nulla quas. Architecto beatae debitis dolore eligendi, et fuga inventore iusto natus neque non nulla obcaecati optio praesentium quibusdam quisquam sint totam! Dolore illo molestias mollitia porro unde!</span>
+                    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut doloremque eveniet, excepturi fuga fugit iusto, nam, necessitatibus non optio quasi sequi veniam vitae voluptate! Esse libero modi quae quas quos</span>
                     </p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                    className="d-block w-100"
-                    width={810}
-                    height={500}
+                    className="img-fluid"
+                    // width={810}
+                    // height={500}
                     src={courTwo}
                     alt="photo"
                 />
                 <Carousel.Caption>
                     <h3> Best photographer in the world!</h3>
-                    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut doloremque eveniet, excepturi fuga fugit iusto, nam, necessitatibus non optio quasi sequi veniam vitae voluptate! Esse libero modi quae quas quos?</span><span>Architecto cum nulla quas. Architecto beatae debitis dolore eligendi, et fuga inventore iusto natus neque non nulla obcaecati optio praesentium quibusdam quisquam sint totam! Dolore illo molestias mollitia porro unde!</span>
+                    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut doloremque eveniet, excepturi fuga fugit iusto, nam, necessitatibus non optio quasi sequi veniam vitae voluptate! Esse libero modi quae quas quos?</span>
                     </p>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                    className="d-block w-100"
-                    width={810}
-                    height={500}
+                    className="img-fluid"
+                    // width={810}
+                    // height={500}
                     src={courThree}
                     alt="photo"
                 />
                 <Carousel.Caption>
                     <h3> Best photographer in the world!</h3>
-                    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut doloremque eveniet, excepturi fuga fugit iusto, nam, necessitatibus non optio quasi sequi veniam vitae voluptate! Esse libero modi quae quas quos?</span><span>Architecto cum nulla quas. Architecto beatae debitis dolore eligendi, et fuga inventore iusto natus neque non nulla obcaecati optio praesentium quibusdam quisquam sint totam! Dolore illo molestias mollitia porro unde!</span>
+                    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut doloremque eveniet, excepturi fuga fugit iusto, nam, necessitatibus non optio quasi sequi veniam vitae voluptate! Esse libero modi quae quas quos?</span>
                     </p>
                 </Carousel.Caption>
             </Carousel.Item>

@@ -1,6 +1,36 @@
-body{
-  height: 2000px;
-}
+/*body{*/
+  /*height: 2000px;*/
+/*}*/
 /*#ledt-tabs-example{*/
   /*display: none;*/
+/*}*/
+/*.main-container{*/
+  /*width: 100%;*/
+  /*height: auto;*/
+/*}*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*@media(max-width: 1366px) {*/
+    /*.main-container {*/
+        /*padding-top: 3.8%;*/
+    /*}*/
+/*}*/
+/*@media(max-width: 992px) {*/
+    /*.main-container {*/
+        /*padding-top: 5%;*/
+    /*}*/
+/*}*/
+/*@media(max-width: 578px) {*/
+    /*.main-container {*/
+        /*padding-top: 9%;*/
+    /*}*/
+/*}*/
+/*@media(max-width: 480px) {*/
+    /*.main-container {*/
+        /*padding-top: 15%;*/
+    /*}*/
 /*}*/
