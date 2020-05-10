@@ -10,12 +10,10 @@ import Container from "react-bootstrap/Container";
 function App() {
   return (
       <>
-          <Container>
-              <div className="App">
-                  <Header/>
-                  <Footer/>
-              </div>
-          </Container>
+          <div className="App">
+              <Header/>
+              <Footer/>
+          </div>
       </>
   );
 }

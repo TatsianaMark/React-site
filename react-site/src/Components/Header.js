@@ -16,7 +16,7 @@ export default function Header() {
     return (
         <>
             <Router>
-                <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
+                <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                     <Container>
                         <Navbar.Brand href="/" className="d-flex">
                             <img
