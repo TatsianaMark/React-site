@@ -1,52 +1,69 @@
 import React from "react";
+import port_photo from '../assets/img/port_photo.jpg';
 import cameraImg from '../assets/img/cameraImg.jpg';
+import love_story_photo from '../assets/img/love_story_photo.jpg';
+import fam_photo from '../assets/img/fam_photo.jpg';
+import in_photo from '../assets/img/in_photo.jpg';
+import b_photo from '../assets/img/b_photo.jpg';
+
 import {Container, CardDeck, Card,Button , Row, Col, Nav, Tab} from "react-bootstrap";
 
 export default function Services() {
     return (
-        <Container>
+        <Container >
             <div className="title text-center m-4">
                 <h2>Услуги</h2>
             </div>
+            <div className="container container_card">
             <CardDeck>
                 <Card>
                     <Card.Img
                         variant="top"
-                        src={cameraImg}
+                        src={port_photo}
                     />
                     <Card.Body>
                         <Card.Title>Портретная съёмка</Card.Title>
-                        <Button variant="outline-dark">See more</Button>
+                        <Button variant="outline-dark">Подробнее</Button>
                     </Card.Body>
                 </Card>
                 <Card>
                     <Card.Img
                         variant="top"
-                        src={cameraImg}
+                        src={in_photo}
                     />
                     <Card.Body>
                         <Card.Title>Индивидуальная съемка</Card.Title>
-                        <Button variant="outline-dark">See more</Button>
+                        <Button variant="outline-dark">Подробнее</Button>
                     </Card.Body>
                 </Card>
                 <Card>
                     <Card.Img
                         variant="top"
-                        src={cameraImg}
+                        src={b_photo}
                     />
                     <Card.Body>
                         <Card.Title>Будуарная съёмка</Card.Title>
-                        <Button variant="outline-dark">See more</Button>
+                        <Button variant="outline-dark">Подробнее</Button>
                     </Card.Body>
                 </Card>
                 <Card>
                     <Card.Img
                         variant="top"
-                        src={cameraImg}
+                        src={fam_photo}
                     />
                     <Card.Body>
                         <Card.Title>Семейная съёмка</Card.Title>
-                        <Button variant="outline-dark">See more</Button>
+                        <Button variant="outline-dark">Подробнее</Button>
+                    </Card.Body>
+                </Card>
+                <Card>
+                    <Card.Img
+                        variant="top"
+                        src={love_story_photo}
+                    />
+                    <Card.Body>
+                        <Card.Title>Love story</Card.Title>
+                        <Button variant="outline-dark">Подробнее</Button>
                     </Card.Body>
                 </Card>
                 <Card>
@@ -55,11 +72,12 @@ export default function Services() {
                         src={cameraImg}
                     />
                     <Card.Body>
-                        <Card.Title>Love story</Card.Title>
-                        <Button variant="outline-dark">See more</Button>
+                        <Card.Title>Свадебная съемка</Card.Title>
+                        <Button variant="outline-dark">Подробнее</Button>
                     </Card.Body>
                 </Card>
             </CardDeck>
+            </div>
         </Container>
     );
 }
