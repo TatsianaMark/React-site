@@ -1,8 +1,5 @@
 import React, {useState} from "react";
 import Carousel from 'react-bootstrap/Carousel';
-import cameraImg from '../assets/img/cameraImg.jpg';
-import cameraTwo from '../assets/img/camera-581126_1920.jpg';
-import cameraThree from '../assets/img/camera-711040_1920.jpg';
 import courOnePhoto from '../assets/img/courOnePhoto.jpg'
 import courTwoPhoto from '../assets/img/courTwoPhoto.jpg'
 import courThreePhoto from '../assets/img/courThreePhoto.jpg'
@@ -17,15 +14,8 @@ export default function CarouselBox() {
     return (
         <Carousel activeIndex={index} onSelect={handleSelect}>
             <Carousel.Item>
-                {/*<img*/}
-                    {/*className="d-block img-fluid mw-100 h-auto"*/}
-                    {/*src={courOne}*/}
-                    {/*alt="photo"*/}
-                {/*/>*/}
                 <img
                     className="img-fluid"
-                    // width={810}
-                    // height={500}
                     src={courOnePhoto}
                     alt="photo"
                 />
@@ -38,8 +28,6 @@ export default function CarouselBox() {
             <Carousel.Item>
                 <img
                     className="img-fluid"
-                    // width={810}
-                    // height={500}
                     src={courTwoPhoto}
                     alt="photo"
                 />
@@ -52,8 +40,6 @@ export default function CarouselBox() {
             <Carousel.Item>
                 <img
                     className="img-fluid"
-                    // width={810}
-                    // height={500}
                     src={courThreePhoto}
                     alt="photo"
                 />
