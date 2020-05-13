@@ -8,7 +8,7 @@ export default function About() {
     return (
         <Container>
             <div className="container container_about pt-4 ">
-                <div className=" text text_about text-center ">
+                <div className=" title title_about text-center ">
                     <h2>Обо мне</h2>
                 </div>
                 <div className="about_img py-md-5 d-flex ">

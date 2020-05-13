@@ -1,7 +1,22 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
+}
+.App{
+    background-color: #f1efef;
+}
+.content_services{
+    background-color: #e9e6e6;
+}
+.title h2:after {
+    content:'';
+    display: block;
+    margin: 35px auto 0;
+    width:46px;
+    height: 2px;
+    border-left:20px gray solid;
+    border-right: 20px gray solid;
 }
 @media(max-width: 578px) {
     .logo_title {
@@ -17,6 +32,9 @@
         display: flex;
         flex-direction: column;
         text-align: center;
+    }
+    .text h2:after {
+        margin-top: 4%;
     }
     .about_img{
         display: flex;
