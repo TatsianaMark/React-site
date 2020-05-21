@@ -1,8 +1,8 @@
 import React from "react";
-import port_photo from '../assets/img/port_photo.jpg';
-import love_story_photo_1 from '../assets/img/love_story_photo_1.jpg';
+import portret_photo from '../assets/img/portret_photo.jpg';
+import love_story_photo_s from '../assets/img/love_story_photo_s.jpg';
 import fam_photo from '../assets/img/fam_photo.jpg';
-import in_photo from '../assets/img/in_photo.jpg';
+import indiv_photo from '../assets/img/indiv_photo.jpg';
 import b_photo from '../assets/img/b_photo.jpg';
 import photo_wedding from '../assets/img/photo_wedding.jpg';
 
@@ -21,11 +21,11 @@ export default function Services() {
             <div className="container_cards">
                 <Row>
                     <CardDeck>
-                        <Col lg={4}>
+                        <Col md={4} lg={4}>
                         <Card>
                             <Card.Img
                                 variant="top"
-                                src={port_photo}
+                                src={portret_photo}
                             />
                             <Card.Body>
                                 <Card.Title>Портретная съёмка</Card.Title>
@@ -33,11 +33,11 @@ export default function Services() {
                             </Card.Body>
                         </Card>
                         </Col>
-                        <Col lg={4}>
+                        <Col md={4} lg={4}>
                         <Card>
                             <Card.Img
                                 variant="top"
-                                src={in_photo}
+                                src={indiv_photo}
                             />
                             <Card.Body>
                                 <Card.Title>Индивидуальная съемка</Card.Title>
@@ -45,7 +45,7 @@ export default function Services() {
                             </Card.Body>
                         </Card>
                         </Col>
-                        <Col lg={4}>
+                        <Col md={4} lg={4}>
                         <Card>
                             <Card.Img
                                 variant="top"
@@ -60,9 +60,10 @@ export default function Services() {
                     </CardDeck>
                 </Row>
                 <Row>
+                    <div className="second_row mt-md-5  mt-md-5 mt-sm-4">
                     <CardDeck>
-                        <Col lg={4}>
-                        <Card style={{ width: '18rem' }}>
+                        <Col md={4} lg={4}>
+                        <Card>
                             <Card.Img
                                 variant="top"
                                 src={fam_photo}
@@ -73,11 +74,11 @@ export default function Services() {
                             </Card.Body>
                         </Card>
                         </Col>
-                        <Col lg={4}>
-                        <Card>
+                        <Col md={4} lg={4}>
+                        <Card >
                             <Card.Img
                                 variant="top"
-                                src={love_story_photo_1}
+                                src={love_story_photo_s}
                             />
                             <Card.Body>
                                 <Card.Title>Love story</Card.Title>
@@ -85,7 +86,7 @@ export default function Services() {
                             </Card.Body>
                         </Card>
                         </Col>
-                        <Col lg={4}>
+                        <Col md={4} lg={4}>
                         <Card>
                             <Card.Img
                                 variant="top"
@@ -98,6 +99,7 @@ export default function Services() {
                         </Card>
                         </Col>
                     </CardDeck>
+                    </div>
                 </Row>
             </div>
             </div>

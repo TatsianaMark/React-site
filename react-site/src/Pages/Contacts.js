@@ -3,7 +3,8 @@ import { Form, Button, Container} from "react-bootstrap";
 
 export default function Contacts() {
     return (
-       <Container style={{width:'100%'}}>
+       <Container>
+           <div className="container_contacts ">
            <h3 className="text-center">Связаться со мной</h3>
            <Form>
                <Form.Group controlId="formBasicEmail">
@@ -22,6 +23,7 @@ export default function Contacts() {
                <Button variant="dark" type="submit">Отправить</Button>
 
            </Form>
+           </div>
        </Container>
     );
 }

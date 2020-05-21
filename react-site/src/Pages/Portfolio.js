@@ -5,6 +5,7 @@ import {Container, CardDeck, Card,Button , Row, Col, Nav, Tab} from "react-boots
 export default function Portfolio() {
     return (
         <Container>
+            <div className="container-portfolio my-5">
             <h2 className="text-center m-4">Портфолио</h2>
             <CardDeck>
                 <Card>
@@ -58,6 +59,8 @@ export default function Portfolio() {
                     </Card.Body>
                 </Card>
             </CardDeck>
+            </div>
         </Container>
+
     );
 }
