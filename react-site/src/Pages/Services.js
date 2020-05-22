@@ -1,5 +1,5 @@
 import React from "react";
-import portret_photo from '../assets/img/portret_photo.jpg';
+import in_photo from '../assets/img/in_photo.jpg';
 import love_story_photo_s from '../assets/img/love_story_photo_s.jpg';
 import fam_photo from '../assets/img/fam_photo.jpg';
 import indiv_photo from '../assets/img/indiv_photo.jpg';
@@ -25,7 +25,7 @@ export default function Services() {
                         <Card>
                             <Card.Img
                                 variant="top"
-                                src={portret_photo}
+                                src={in_photo}
                             />
                             <Card.Body>
                                 <Card.Title>Портретная съёмка</Card.Title>
