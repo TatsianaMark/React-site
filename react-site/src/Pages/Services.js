@@ -14,7 +14,7 @@ export default function Services() {
         <Container>
             <div className="container_line">
             </div>
-            <div className="container_services">
+            <div className="container_services py-md-5">
             <div className="title text-center m-4">
                 <h2>Услуги</h2>
             </div>

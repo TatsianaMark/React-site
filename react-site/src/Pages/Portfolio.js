@@ -7,13 +7,20 @@ import grey_ph from '../assets/img/for_portfolio/see_more_first/grey_ph (2).jpg'
 import loveImg from '../assets/img/for_portfolio/see_more_third/loveImg (2).jpg';
 import lightImg from '../assets/img/for_portfolio/see_more_sixth/lightImg (1).jpg';
 import white_pho from '../assets/img/for_portfolio/see_more_fourth/white_pho (2).jpg';
+
+
+
+
 export default function Portfolio() {
     return (
         <Container>
-            <div className="container-portfolio">
-            <h2 className="text-center m-4">Портфолио</h2>
+            <div className="container container_line">
+            </div>
+            <div className="container-portfolio py-md-5">
+            <h2 className="text-center pt-2 m-4">Портфолио</h2>
             <CardDeck>
-                <div className="portfolio-cards d-flex">
+                <div className="portfolio-cards">
+                    <div className="main main_two_cards d-flex ">
                     <Card>
                         <Card.Img
                             src={grey_ph}
@@ -24,14 +31,13 @@ export default function Portfolio() {
                             src={winter_pho}
                         />
                     </Card>
-                </div>
+                    </div>
+                    <div className="smaller_cards d-flex pt-4 pb-5">
                         <Card>
                             <Card.Img
                                 src={vertical_first}
                             />
                         </Card>
-                    {/*----------------------------- sec-col----------------------------*/}
-
                 <Card>
                     <Card.Img
                         src={horizont_first_s}
@@ -52,7 +58,8 @@ export default function Portfolio() {
                             src={white_pho}
                         />
                     </Card>
-                {/*</div>*/}
+                    </div>
+                </div>
             </CardDeck>
             </div>
         </Container>

@@ -15,8 +15,8 @@
     margin: 35px auto 0;
     width:46px;
     height: 2px;
-    border-left:20px gray solid;
-    border-right: 20px gray solid;
+    border-left:20px darkslategrey solid;
+    border-right: 20px darkslategrey solid;
 }
 @media(max-width: 578px) {
     .logo_title {
@@ -46,6 +46,10 @@
         margin: auto;
 
     }
+}
+.container_line{
+    height: 2px;
+    background-color:darkslategrey ;
 }
 
 /*@media(max-width: 1366px) {*/
