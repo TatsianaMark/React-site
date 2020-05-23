@@ -52,6 +52,33 @@
     background-color:darkslategrey ;
 }
 
+.container_contacts{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: #a5a4a4;
+}
+.contact-me{
+    text-align: center;
+}
+.main_container_contact{
+    width: 35%;
+}
+.two_cards_portfolio{
+    height: 100%;
+    object-fit: cover;
+}
+.lower_cards_portfolio{
+    object-fit: cover;
+
+}
+
+/*.container_bg{*/
+    /*background-image: url("./assets/img/Kate.jpg");*/
+    /*background-repeat: no-repeat;*/
+/*}*/
+
 /*@media(max-width: 1366px) {*/
     /*.main-container {*/
         /*padding-top: 3.8%;*/

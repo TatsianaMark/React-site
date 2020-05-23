@@ -16,18 +16,20 @@ export default function Portfolio() {
         <Container>
             <div className="container container_line">
             </div>
-            <div className="container-portfolio py-md-5">
+            <div className="container-portfolio py-md-3">
             <h2 className="text-center pt-2 m-4">Портфолио</h2>
             <CardDeck>
-                <div className="portfolio-cards">
+                <div className="portfolio-cards py-md-5">
                     <div className="main main_two_cards d-flex ">
                     <Card>
                         <Card.Img
+                            className="two_cards_portfolio"
                             src={grey_ph}
                         />
                     </Card>
                     <Card>
                         <Card.Img
+                            className="two_cards_portfolio"
                             src={winter_pho}
                         />
                     </Card>
@@ -35,32 +37,37 @@ export default function Portfolio() {
                     <div className="smaller_cards d-flex pt-4 pb-5">
                         <Card>
                             <Card.Img
+                                className="lower_cards_portfolio"
                                 src={vertical_first}
                             />
                         </Card>
-                <Card>
-                    <Card.Img
-                        src={horizont_first_s}
-                    />
-                </Card>
-                    <Card>
-                        <Card.Img
-                           src={lightImg}
-                        />
-                    </Card>
+                         <Card>
+                             <Card.Img
+                                 className="lower_cards_portfolio"
+                                 src={horizont_first_s}
+                             />
+                         </Card>
                         <Card>
                             <Card.Img
+                                className="lower_cards_portfolio"
+                               src={lightImg}
+                            />
+                        </Card>
+                        <Card>
+                            <Card.Img
+                                className="lower_cards_portfolio"
                                 src={loveImg}
                             />
                         </Card>
-                    <Card>
+                        <Card>
                         <Card.Img
+                            className="lower_cards_portfolio"
                             src={white_pho}
                         />
-                    </Card>
+                        </Card>
                     </div>
                 </div>
-            </CardDeck>
+               </CardDeck>
             </div>
         </Container>
 

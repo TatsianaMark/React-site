@@ -15,10 +15,10 @@ export default function Services() {
             <div className="container_line">
             </div>
             <div className="container_services py-md-5">
-            <div className="title text-center m-4">
+            <div className="title text-center m-2">
                 <h2>Услуги</h2>
             </div>
-            <div className="container_cards">
+            <div className="container_cards mt-5">
                 <Row>
                     <CardDeck>
                         <Col md={4} lg={4}>
