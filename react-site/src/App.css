@@ -73,6 +73,9 @@
     object-fit: cover;
 
 }
+.photo_about{
+    width: 35%;
+}
 
 /*.container_bg{*/
     /*background-image: url("./assets/img/Kate.jpg");*/

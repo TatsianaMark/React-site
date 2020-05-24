@@ -11,9 +11,14 @@ export default function About() {
                 <div className="title title_about text-center">
                     <h2>Обо мне</h2>
                 </div>
+                <div className="name name_photogrepher text-center text-dark pt-4">
+                    <span>
+                        <strong>ЕКАТЕРИНА ДОРОГУШ - ФОТОГРАФ</strong>
+                    </span>
+                </div>
                 <div className="about_img py-md-5 d-flex">
                     <img
-                    className="w-50 img-fluid"
+                    className="photo_about img-fluid"
                     src={photo_about_me}
                     alt="photo_Katrin"
                 />
