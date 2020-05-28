@@ -22,13 +22,13 @@ export default function About() {
                     src={photo_about_me}
                     alt="photo_Katrin"
                 />
-                <div className="text-title pl-md-5 pt-sm-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam architecto debitis
-                        doloremque, dolores eius et, fuga fugiat in iusto nam officiis optio placeat quae quibusdam suscipit
-                        tenetur vero, voluptatibus.LoremLorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam architecto debitis
-                    doloremque, dolores eius et, fuga fugiat in iusto nam officiis optio placeat quae quibusdam suscipit
-                    tenetur vero, voluptatibus.LoremLorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aperiam architecto debitis
-                    doloremque, dolores eius et, fuga fugiat in iusto nam officiis optio placeat quae quibusdam suscipit
-                    tenetur vero, voluptatibus.Lorem
+                <div className="text-title pl-md-5 pt-sm-4">Я профессиональный фотограф. Фотография - это не просто хобби для меня. Это часть моего восприятие мира! Она была в моей жизни всегда, запечатление момента помогает мне раскрыть самые искренние эмоции человека, а также обратить внимание на индивидуальные черты.  Которые в бурном темпе жизни мы, очевидно, постепенно перестаем замечать.
+                    Я работаю с широким спектром направлений: портретная фотосъёмка, индивидуальная фотосъёмка, будуарная фотосъёмка, семейная фотосъёмка, love story и свадебная съёмка. Использую топовую технику Canon.
+                    Весьма значительную часть моей жизни я занималась профессионально спортом – это помогло мне не останавливаться на достигнутом, поэтому я всегда стремлюсь улучшать свои навыки, обучаюсь, посещаю мастер-классы, ищу новые приёмы.
+                    На съёмках я стараюсь создать непринуждённую атмосферу, чтобы вы чувствовали себя естественно перед камерой и получали удовольствие от съёмки.
+                    Что касается организацией фотосъёмки, принимаю во внимание личные пожелания. И помогаю выбрать вам место проведения фотосъёмки, стиль фотосессии и подобрать красивые образы.
+                    Я буду очень рада помочь сохранить ваши все самые красивые, нежные, чувственные и радостные моменты вашей жизни!
+
                 </div>
                 </div>
             </div>

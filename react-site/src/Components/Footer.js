@@ -1,10 +1,14 @@
 import React from "react";
+import SocialFollow from "./SocialFollow";
 
 const Footer = () => {
     return(
         <>
-            <div className="main-footer bg-dark px-5 py-3 text-white">
+            <div className="footer footer_mix bg-dark d-flex flex-row flex-wrap">
+                <div className="main-footer px-5 py-3 text-white">
                     Авторские права ©2020
+                </div>
+                <SocialFollow/>
             </div>
         </>
     )
