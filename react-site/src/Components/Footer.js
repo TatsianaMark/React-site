@@ -1,18 +1,22 @@
 import React from "react";
 import SocialFollow from "./SocialFollow";
+import  {GoMail} from "react-icons/go";
 
-const Footer = () => {
+export default function Footer() {
     return(
         <>
-            <div className="footer footer_mix bg-dark d-flex flex-row flex-wrap">
-                <div className="main-footer px-5 py-3 text-white">
-                    Авторские права ©2020
+            <div className="footer footer_mix bg-dark d-flex flex-row flex-wrap px-5 py-3 justify-content-around">
+                <div className="message message_footer d-flex">
+                        <GoMail size="2rem" color='#dfe3ee'/>
+                        <div className="e_mail_footer text-white ml-2">
+                            <a href="edorogus@gmail.com">edorogus@gmail.com</a>
+                        </div>
+                </div>
+                <div className="main-footer text-white">
+                    © 2020 Katerina Dorogush
                 </div>
                 <SocialFollow/>
             </div>
         </>
     )
-};
-
-
-export default  Footer;
+}

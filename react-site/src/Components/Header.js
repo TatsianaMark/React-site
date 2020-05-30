@@ -26,7 +26,7 @@ export default function Header() {
                                 className="d-block align-top mr-2"
                                 alt="Logo"
                             />
-                            <div className='logo_title'>Photographer Katrin</div>
+                            <div className='logo_title'>Photographer Katerina</div>
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-nav">

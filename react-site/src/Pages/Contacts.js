@@ -12,7 +12,14 @@ export default function Contacts() {
                </div>
                <div className="main_container_contact">
                        <Form>
-                           <h3 className="text-center mb-4">Связаться со мной</h3>
+                           <div className="contact contact_header text-center">
+                               <div className="contact contact_number pb-3">
+                                   PHONE: +375292695120 (Viber, WhatsApp, Telegram)
+                               </div>
+                               <div className="contact-text">
+                                   <h3>Связаться со мной</h3>
+                               </div>
+                           </div>
                            <Form.Group controlId="formBasicEmail">
                                <Form.Label>E-mail</Form.Label>
                                <Form.Control type="email" placeholder="Email"/>
