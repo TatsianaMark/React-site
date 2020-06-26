@@ -83,6 +83,9 @@
     text-indent:25px;
     text-align: justify;
 }
+.contact_number{
+    font-size: 17px;
+}
 
 /*.container_bg{*/
     /*background-image: url("./assets/img/Kate.jpg");*/

@@ -12,7 +12,7 @@ import {Container, CardDeck, Card,Button , Row, Col, Nav, Tab} from "react-boots
 export default function Services() {
     return (
         <Container>
-            <div className="container_line">
+            <div className="container container_line">
             </div>
             <div className="container_services py-md-5">
             <div className="title text-center m-2">
