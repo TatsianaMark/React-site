@@ -1,6 +1,7 @@
 import React from "react";
 import { Form, Button, Container} from "react-bootstrap";
 import kate from "../assets/img/Kate.jpg";
+import SocialFollow from "../Components/SocialFollow";
 
 export default function Contacts() {
     return (
@@ -19,6 +20,7 @@ export default function Contacts() {
                                <div className="contact-text">
                                    <h3>Связаться со мной</h3>
                                </div>
+                               <SocialFollow/>
                            </div>
                            <Form.Group controlId="formBasicEmail">
                                <Form.Label>E-mail</Form.Label>

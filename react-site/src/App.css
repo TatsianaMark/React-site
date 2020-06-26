@@ -79,6 +79,10 @@
 .contact_number{
     font-size: 20px;
 }
+.indent{
+    text-indent:25px;
+    text-align: justify;
+}
 
 /*.container_bg{*/
     /*background-image: url("./assets/img/Kate.jpg");*/

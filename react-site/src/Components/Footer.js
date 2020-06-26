@@ -1,5 +1,4 @@
 import React from "react";
-import SocialFollow from "./SocialFollow";
 import  {GoMail} from "react-icons/go";
 
 export default function Footer() {
@@ -13,9 +12,8 @@ export default function Footer() {
                         </div>
                 </div>
                 <div className="main-footer text-white">
-                    © 2020 Katerina Dorogush
+                    © 2020 | Web Design and Service made in Malta provided by Markouskaya Tatsiana.
                 </div>
-                <SocialFollow/>
             </div>
         </>
     )
