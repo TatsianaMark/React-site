@@ -86,6 +86,10 @@
 .contact_number{
     font-size: 17px;
 }
+.Card{
+    width: 100%;
+    height: 100%;
+}
 
 /*.container_bg{*/
     /*background-image: url("./assets/img/Kate.jpg");*/

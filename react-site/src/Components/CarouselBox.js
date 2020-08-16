@@ -20,8 +20,8 @@ export default function CarouselBox() {
                     alt="photo"
                 />
                 <Carousel.Caption>
-                    <h3> Best photographer in the world!</h3>
-                    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut doloremque eveniet, excepturi fuga fugit iusto, nam, necessitatibus non optio quasi sequi veniam vitae voluptate! Esse libero modi quae quas quos</span>
+                    <h3> Bring your creativity to life!</h3>
+                    <p><span>Буду очень рада помочь сохранить ваши самые красивые, нежные, чувственные и радостные моменты вашей жизни!</span>
                     </p>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -32,8 +32,8 @@ export default function CarouselBox() {
                     alt="photo"
                 />
                 <Carousel.Caption>
-                    <h3> Best photographer in the world!</h3>
-                    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut doloremque eveniet, excepturi fuga fugit iusto, nam, necessitatibus non optio quasi sequi veniam vitae voluptate! Esse libero modi quae quas quos?</span>
+                    <h3>Change your lens, change your story...</h3>
+                    <p><span>Буду очень рада помочь сохранить ваши самые красивые, нежные, чувственные и радостные моменты вашей жизни!</span>
                     </p>
                 </Carousel.Caption>
             </Carousel.Item>
@@ -44,8 +44,8 @@ export default function CarouselBox() {
                     alt="photo"
                 />
                 <Carousel.Caption>
-                    <h3> Best photographer in the world!</h3>
-                    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut doloremque eveniet, excepturi fuga fugit iusto, nam, necessitatibus non optio quasi sequi veniam vitae voluptate! Esse libero modi quae quas quos?</span>
+                    <h3>Your Day is a Love Story…Tell it to the Camera.</h3>
+                    <p><span>Буду очень рада помочь сохранить ваши самые красивые, нежные, чувственные и радостные моменты вашей жизни!</span>
                     </p>
                 </Carousel.Caption>
             </Carousel.Item>

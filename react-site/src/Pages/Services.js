@@ -52,7 +52,7 @@ export default function Services() {
                                 src={b_photo}
                             />
                             <Card.Body>
-                                <Card.Title>Будуарная съёмка</Card.Title>
+                                <Card.Title className="space-btn">Будуарная съёмка</Card.Title>
                                 <Button variant="outline-dark">Подробнее...</Button>
                             </Card.Body>
                         </Card>
