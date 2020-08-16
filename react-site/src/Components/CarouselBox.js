@@ -20,9 +20,8 @@ export default function CarouselBox() {
                     alt="photo"
                 />
                 <Carousel.Caption>
-                    <h3> Bring your creativity to life!</h3>
-                    <p><span>Буду очень рада помочь сохранить ваши самые красивые, нежные, чувственные и радостные моменты вашей жизни!</span>
-                    </p>
+                    <div className="main_slogan"> Bring your creativity to life!</div>
+                    <div className="slogan">Сохраню ваши самые красивые, нежные, чувственные и радостные моменты вашей жизни!</div>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -32,9 +31,8 @@ export default function CarouselBox() {
                     alt="photo"
                 />
                 <Carousel.Caption>
-                    <h3>Change your lens, change your story...</h3>
-                    <p><span>Буду очень рада помочь сохранить ваши самые красивые, нежные, чувственные и радостные моменты вашей жизни!</span>
-                    </p>
+                    <div className="main_slogan">Change your lens, change your story...</div>
+                    <div className="slogan">Сохраню ваши самые красивые, нежные, чувственные и радостные моменты вашей жизни!</div>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -44,9 +42,8 @@ export default function CarouselBox() {
                     alt="photo"
                 />
                 <Carousel.Caption>
-                    <h3>Your Day is a Love Story…Tell it to the Camera.</h3>
-                    <p><span>Буду очень рада помочь сохранить ваши самые красивые, нежные, чувственные и радостные моменты вашей жизни!</span>
-                    </p>
+                    <div className="main_slogan">Your Day is a Love Story…Tell it to the Camera.</div>
+                    <div className="slogan">Сохраню ваши самые красивые, нежные, чувственные и радостные моменты вашей жизни!</div>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
