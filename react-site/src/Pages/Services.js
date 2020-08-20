@@ -7,10 +7,23 @@ import b_photo from '../assets/img/b_photo.jpg';
 import photo_wedding from '../assets/img/photo_wedding.jpg';
 import {Container, CardDeck, Card, Button, Row, Col} from "react-bootstrap";
 import PopupPortret from "../Popups/PopupPortret";
+import PopupIndividual from "../Popups/PopupIndividual";
+import PopupBuduar from "../Popups/PopupBuduar";
+import PopupLove from "../Popups/PopupLove";
+import PopupWedding from "../Popups/PopupWedding";
+import PopupFam from "../Popups/PopupFam";
 
 
 export default function Services() {
-    const [modalShow, setModalShow] = React.useState(false);
+    const [portretShow, setPortretShow] = React.useState(false);
+    const [individShow, setIndividShow] = React.useState(false);
+    const [buduarShow, setBuduarShow] = React.useState(false);
+
+    const [famShow, setFamShow] = React.useState(false);
+    const [loveShow, setLoveShow] = React.useState(false);
+    const [weddingShow, setWeddingShow] = React.useState(false);
+
+
 
     return (
         <Container>
@@ -31,14 +44,12 @@ export default function Services() {
                             />
                             <Card.Body>
                                 <Card.Title>Портретная съёмка</Card.Title>
-                                    <Button variant="outline-dark" className="Btn_more" onClick={() => setModalShow(true)}>
+                                    <Button variant="outline-dark" className="Btn_more" onClick={() => setPortretShow(true)}>
                                         Подробнее...</Button>
                                 <PopupPortret
-                                    show={modalShow}
-                                    onHide={() => setModalShow(false)}
+                                    show={portretShow}
+                                    onHide={() => setPortretShow(false)}
                                 />
-                                
-                                
                             </Card.Body>
                         </Card>
                         </Col>
@@ -50,11 +61,11 @@ export default function Services() {
                             />
                             <Card.Body>
                                 <Card.Title>Индивидуальная съемка</Card.Title>
-                                <Button variant="outline-dark" className="Btn_more" onClick={() => setModalShow(true)}>
+                                <Button variant="outline-dark" className="Btn_more" onClick={() => setIndividShow(true)}>
                                     Подробнее...</Button>
-                                <PopupPortret
-                                    show={modalShow}
-                                    onHide={() => setModalShow(false)}
+                                <PopupIndividual
+                                    show={individShow}
+                                    onHide={() => setIndividShow(false)}
                                 />
                             </Card.Body>
                         </Card>
@@ -67,7 +78,12 @@ export default function Services() {
                             />
                             <Card.Body>
                                 <Card.Title className="space-btn">Будуарная съёмка</Card.Title>
-                                <Button variant="outline-dark" className="Btn_more">Подробнее...</Button>
+                                <Button variant="outline-dark" className="Btn_more" onClick={() => setBuduarShow(true)}>
+                                    Подробнее...</Button>
+                                <PopupBuduar
+                                    show={buduarShow}
+                                    onHide={() => setBuduarShow(false)}
+                                />
                             </Card.Body>
                         </Card>
                         </Col>
@@ -84,7 +100,12 @@ export default function Services() {
                             />
                             <Card.Body>
                                 <Card.Title>Семейная съёмка</Card.Title>
-                                <Button variant="outline-dark" className="Btn_more">Подробнее...</Button>
+                                <Button variant="outline-dark" className="Btn_more" onClick={() => setFamShow(true)}>
+                                    Подробнее...</Button>
+                                <PopupFam
+                                    show={famShow}
+                                    onHide={() => setFamShow(false)}
+                                />
                             </Card.Body>
                         </Card>
                         </Col>
@@ -96,7 +117,12 @@ export default function Services() {
                             />
                             <Card.Body>
                                 <Card.Title>Love story</Card.Title>
-                                <Button variant="outline-dark" className="Btn_more" >Подробнее...</Button>
+                                <Button variant="outline-dark" className="Btn_more" onClick={() => setLoveShow(true)}>
+                                    Подробнее...</Button>
+                                <PopupLove
+                                    show={loveShow}
+                                    onHide={() => setLoveShow(false)}
+                                />
                             </Card.Body>
                         </Card>
                         </Col>
@@ -105,10 +131,15 @@ export default function Services() {
                             <Card.Img
                                 variant="top"
                                 src={photo_wedding}
-                            />
+                            />s
                             <Card.Body>
                                 <Card.Title>Свадебная съемка</Card.Title>
-                                <Button variant="outline-dark" className="Btn_more">Подробнее...</Button>
+                                <Button variant="outline-dark" className="Btn_more" onClick={() => setWeddingShow(true)}>
+                                    Подробнее...</Button>
+                                <PopupWedding
+                                    show={weddingShow}
+                                    onHide={() => setWeddingShow(false)}
+                                />
                             </Card.Body>
                         </Card>
                         </Col>
