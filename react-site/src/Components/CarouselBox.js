@@ -21,7 +21,7 @@ export default function CarouselBox() {
                 />
                 <Carousel.Caption>
                     <div className="main_slogan"> Bring your creativity to life!</div>
-                    <div className="slogan">Сохраню ваши самые красивые, нежные, чувственные и радостные моменты вашей жизни!</div>
+                    <div className="slogan">Сохраню ваши самые красивые, нежные и радостные моменты жизни!</div>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -32,7 +32,7 @@ export default function CarouselBox() {
                 />
                 <Carousel.Caption>
                     <div className="main_slogan">Change your lens, change your story...</div>
-                    <div className="slogan">Сохраню ваши самые красивые, нежные, чувственные и радостные моменты вашей жизни!</div>
+                    <div className="slogan">Сохраню ваши самые красивые, нежные и радостные моменты жизни!</div>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -43,7 +43,7 @@ export default function CarouselBox() {
                 />
                 <Carousel.Caption>
                     <div className="main_slogan">Your Day is a Love Story…Tell it to the Camera.</div>
-                    <div className="slogan">Сохраню ваши самые красивые, нежные, чувственные и радостные моменты вашей жизни!</div>
+                    <div className="slogan">Сохраню ваши самые красивые, нежные и радостные моменты жизни!</div>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

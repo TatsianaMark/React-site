@@ -5,11 +5,13 @@ import fam_photo from '../assets/img/fam_photo.jpg';
 import indiv_photo from '../assets/img/indiv_photo.jpg';
 import b_photo from '../assets/img/b_photo.jpg';
 import photo_wedding from '../assets/img/photo_wedding.jpg';
+import {Container, CardDeck, Card, Button, Row, Col} from "react-bootstrap";
+import PopupPortret from "../Popups/PopupPortret";
 
-
-import {Container, CardDeck, Card,Button , Row, Col, Nav, Tab} from "react-bootstrap";
 
 export default function Services() {
+    const [modalShow, setModalShow] = React.useState(false);
+
     return (
         <Container>
             <div className="container container_line">
@@ -29,7 +31,14 @@ export default function Services() {
                             />
                             <Card.Body>
                                 <Card.Title>Портретная съёмка</Card.Title>
-                                <Button variant="outline-dark">Подробнее...</Button>
+                                    <Button variant="outline-dark" className="Btn_more" onClick={() => setModalShow(true)}>
+                                        Подробнее...</Button>
+                                <PopupPortret
+                                    show={modalShow}
+                                    onHide={() => setModalShow(false)}
+                                />
+                                
+                                
                             </Card.Body>
                         </Card>
                         </Col>
@@ -41,7 +50,12 @@ export default function Services() {
                             />
                             <Card.Body>
                                 <Card.Title>Индивидуальная съемка</Card.Title>
-                                <Button variant="outline-dark">Подробнее...</Button>
+                                <Button variant="outline-dark" className="Btn_more" onClick={() => setModalShow(true)}>
+                                    Подробнее...</Button>
+                                <PopupPortret
+                                    show={modalShow}
+                                    onHide={() => setModalShow(false)}
+                                />
                             </Card.Body>
                         </Card>
                         </Col>
@@ -53,7 +67,7 @@ export default function Services() {
                             />
                             <Card.Body>
                                 <Card.Title className="space-btn">Будуарная съёмка</Card.Title>
-                                <Button variant="outline-dark">Подробнее...</Button>
+                                <Button variant="outline-dark" className="Btn_more">Подробнее...</Button>
                             </Card.Body>
                         </Card>
                         </Col>
@@ -70,19 +84,19 @@ export default function Services() {
                             />
                             <Card.Body>
                                 <Card.Title>Семейная съёмка</Card.Title>
-                                <Button variant="outline-dark">Подробнее...</Button>
+                                <Button variant="outline-dark" className="Btn_more">Подробнее...</Button>
                             </Card.Body>
                         </Card>
                         </Col>
                         <Col md={4} lg={4}>
-                        <Card >
+                        <Card>
                             <Card.Img
                                 variant="top"
                                 src={love_story_photo_s}
                             />
                             <Card.Body>
                                 <Card.Title>Love story</Card.Title>
-                                <Button variant="outline-dark">Подробнее...</Button>
+                                <Button variant="outline-dark" className="Btn_more" >Подробнее...</Button>
                             </Card.Body>
                         </Card>
                         </Col>
@@ -94,7 +108,7 @@ export default function Services() {
                             />
                             <Card.Body>
                                 <Card.Title>Свадебная съемка</Card.Title>
-                                <Button variant="outline-dark">Подробнее...</Button>
+                                <Button variant="outline-dark" className="Btn_more">Подробнее...</Button>
                             </Card.Body>
                         </Card>
                         </Col>
